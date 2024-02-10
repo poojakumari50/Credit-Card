@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: lightcyan;
+        }
+
+        .container {
+            position: relative;
+            background-color: black;
+            background-size: cover;
+            padding: 25px;
+            border-radius: 28px;
+            max-width: 380px;
+            width: 100%;
+            box-shadow: 10px 10px 10px rgba(126, 111, 111, 0.5);
+        }
+
+        header,
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            width: 100px;
+            margin-right: 1px;
+        }
+
+        h5 {
+            font-size: 15px;
+            color: white;
+        }
+
+        header .chip {
+            width: 60px;
+        }
+
+        h6 {
+            color: white;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        h5.number {
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        h5.name {
+            margin-top: 20px;
+        }
+
+        .class-details {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="image/cc2.png" alt="">
+                <h5>Master Card</h5>
+            </span>
+            <img src="image/cc1.png" alt="" class="chip">
+        </header>
+        <div class="class-details">
+            <div class="name-number">
+                <h6>Card Number</h6>
+                <h5 class="number">0102 03 04 0506 0708</h5>
+                <h5 class="name">Gaurav Singh</h5>
+            </div>
+            <div class="valid-date">
+                <h6>Valid Thru</h6>
+                <h5>07/25</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
